@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LPの練習"/>
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" >
+    <title>LPの練習</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <h1 class="site-title"> 
+            <a href="#">YukiCode</a>
+        </h1>
+        <nav>
+            <ul>
+               <li><a href="#about">About</a></li> 
+               <li><a href="#works">Works</a></li>  
+               <li><a href="#news">News</a></li> 
+               <li><a href="#contact">Contact</a></li> 
+               <li><a 
+                      href="https://www.Twitter.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      ><img src="/img/twitter.png" alt="Twitter" class="icon"></a>
+               </li> 
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+     <div id="main">
+       <picture>
+         <source media="(max-width:600px)" secret="/img/main-sp.jpg">
+         <img src="/img/main-pc.jpg" alt="">
+       </picture>
+     </div>
+     <!-- about -->
+    <section id="about" class="wrapper">
+    <h2 class="sec-title">
+        <!-- 考え中 -->
+        <source media="(max-width:600px)" secret="">
+        <!-- 考え中 -->
+        About
+    </h2>
+    <ul> 
+        <li>YukiCode株式会社</li>
+        <li>Web制作会社として設立</li>
+        <li>Webサイト・アプリ開発を承ります</li>
+        <li>メールアドレス：xxxxxx@xxx.com</li>
+    </ul>
+    <p>
+        関西の大阪を拠点としてWebサイト制作やアプリ開発を得意としています。小規模のサイトから制作を依頼したい個人・企業様もお気軽にご相談ください。
+    </p>
+    </section>
+
+   <!-- Works -->
+   <section id="works" class="wrapper">
+    <h2 class="sec-title">Works</h2>
+    <ul>
+      <li><img src="./img/works1.jpg" alt="work1"></li>
+      <li><img src="./img/works2.jpg" alt="work2"></li>
+      <li><img src="./img/works3.jpg" alt="work3"></li>
+      <li><img src="./img/works4.jpg" alt="work4"></li>
+      <li><img src="./img/works5.jpg" alt="work5"></li>
+      <li><img src="./img/works6.jpg" alt="work6"></li>
+      <li><img src="./img/works7.jpg" alt="work7"></li>
+      <li><img src="./img/works8.jpg" alt="work8"></li>
+      <li><img src="./img/works9.jpg" alt="work9"></li>
+    </ul>
+  </section>
+
+<!-- News -->
+   <section id="news" class="wrapper">
+    <h2 class="sec-title">News</h2>
+    <dl>
+        <dt>2024/8/24</dt>
+        <dd>料金表についてのお知らせ</dd>
+        <dt>2024/8/15</dt>
+        <dd>事業所を設立しました</dd>
+        <dt>2024/7/20</dt>
+        <dd>Worksに作品を追加しました</dd>
+        <dt>2024/7/15</dt>
+        <dd>新規のご依頼をお待ちしております</dd>
+        <dt>2024/7/15</dt>
+        <dd>本サイトをリリースしました</dd>
+    </dl>
+  </section>
+
+<!-- Contact -->
+<section id="contact" class="wrapper">
+    <h2 class="sec-title">Contact</h2>
+    <p>お問い合せは以下のフォームから</p>
+    <form action="#" method="post">
+     <dl>
+        <dt><label for="name">お名前</label></dt>
+        <dd><input type="text" id="name"></dd>
+        <dt><label for="email">メールアドレス</label></dt>
+        <dd><input type="email" id="email"></dd>
+        <dt><label for="content">内容</label></dt>
+        <dd><textarea id="content" cols="30"  rows="10"></textarea></dd>
+       
+     </dl>
+     <div class="button"><input type="submit" value="送信"></div>
+    </form>
+  </section>
+
+ </body>
+</html>
